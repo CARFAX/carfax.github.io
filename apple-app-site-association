@@ -1,0 +1,27 @@
+{
+    "appclips": {
+        "apps": [
+            "8DR397QN6M.com.carfax.MyCarfaxApp.Clip"
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "8DR397QN6M.com.carfax.MyCarfaxApp"
+        ]
+    },
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "8DR397QN6M.com.carfax.MyCarfaxApp"
+                ],
+                "components": [
+                    {
+                        "/": "/service/*",
+                        "comment": "Matches any URL whose path starts with /service/"
+                    }
+                ]
+            }
+        ]
+    }
+}
