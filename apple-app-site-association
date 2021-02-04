@@ -23,8 +23,12 @@
                         "comment": "Matches any URL whose path starts with /service/"
                     },
                     {
-                        "/": "/Service-Shops*",
+                        "/": "/Service-Shops-*",
                         "comment": "Matches any URL whose path starts with /Service-Shops"
+                    },
+                    {
+                        "/": "/Service-Shops/*",
+                        "comment": "Matches any URL whose path starts with /Service-Shops/*"
                     }
                 ]
             }
