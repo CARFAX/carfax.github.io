@@ -1,12 +1,14 @@
 {
     "appclips": {
         "apps": [
-            "8DR397QN6M.com.carfax.MyCarfaxApp.Clip"
+            "8DR397QN6M.com.carfax.MyCarfaxApp.Clip",
+            "8DR397QN6M.com.carfax.ConsumerApp.Clip"
         ]
     },
     "webcredentials": {
         "apps": [
-            "8DR397QN6M.com.carfax.MyCarfaxApp"
+            "8DR397QN6M.com.carfax.MyCarfaxApp",
+            "8DR397QN6M.com.carfax.ConsumerApp"
         ]
     },
     "applinks": {
@@ -21,10 +23,9 @@
                         "comment": "Matches any URL whose path starts with /service/"
                     },
                     {
-                        "/": "/service-shops/*",
-                        "comment": "Matches any URL whose path starts with /service-shops/"
+                        "/": "/Service-Shops*",
+                        "comment": "Matches any URL whose path starts with /Service-Shops"
                     }
-
                 ]
             }
         ]
